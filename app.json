@@ -1,0 +1,39 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/test5/test3"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+
+    "tabBar": {
+        "borderStyle": "black" ,
+        "selectedColor": "#4da9ff",  
+        "backgroundColor": "gray",
+        "color": "#000000",
+        "list": [
+            {
+                "iconPath": "image/chse.png",
+                "selectedIconPath": "image/chse.png",
+                "pagePath": "pages/index/index", 
+                "text": "首页"  
+            },
+            {
+                "selectedIconPath": "image/logo.png",
+                "iconPath": "image/logo.png",
+                "pagePath": "pages/test5/test3",  
+                "text": "二爷"  
+            }
+
+        ]   
+
+
+    }   
+}
